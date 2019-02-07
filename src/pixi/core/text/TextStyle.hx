@@ -89,6 +89,7 @@ extern class TextStyle {
 	var strokeThickness:Float;
 	var trim:Bool;
 	var textBaseline:String;
+     var whiteSpace:Bool;
 	var wordWrap:Bool;
 	var wordWrapWidth:Float;
 	var leading:Float;

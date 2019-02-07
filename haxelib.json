@@ -16,7 +16,7 @@
 		"adireddy"
 	],
 	"releasenote": "updated to latest pixi version",
-	"version": "4.7.1",
+	"version": "4.8.5",
 	"url": "https://github.com/pixijs/pixi-haxe",
 	"dependencies": {
 		"perf.js": ""
