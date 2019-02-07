@@ -4,6 +4,7 @@ import haxe.extern.EitherType;
 import js.html.CanvasElement;
 import js.html.VideoElement;
 import pixi.core.Pixi.ScaleModes;
+import pixi.core.math.Point;
 import pixi.core.math.shapes.Rectangle;
 import pixi.interaction.EventEmitter;
 
@@ -46,6 +47,16 @@ extern class Texture extends EventEmitter {
 	 * @member {BaseTexture}
 	 */
 	var baseTexture:BaseTexture;
+
+	/**
+	 * Anchor point that is used as default if sprite is created with this texture. 
+	 * Changing the defaultAnchor at a later point of time will not update Sprite's anchor point.
+	 * 
+	 * Default {0,0}
+	 *
+	 * @member {Point}
+	 */
+	var defaultAnchor:Point;
 
 	/**
 	 * The texture trim data.
