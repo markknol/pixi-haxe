@@ -13,7 +13,7 @@ matrix:
     - haxe: development
 
 hxml:
-  - build.hxml
   - test.hxml
+  - build.hxml
   
 sudo: false
