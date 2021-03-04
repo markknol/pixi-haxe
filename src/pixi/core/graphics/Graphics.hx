@@ -163,6 +163,12 @@ extern class Graphics extends Container {
 	function beginFill(?color:Int, ?alpha:Float):Graphics;
 
 	/**
+	 * End adding holes to the last draw shape
+	 * @return Returns itself.
+	 */
+	function endHole():Graphics;
+
+	/**
 	 * Begin adding holes to the last draw shape IMPORTANT: holes must be fully inside a shape to work Also weirdness ensues if holes overlap! Ellipses, Circles, Rectangles and Rounded Rectangles cannot be holes or host for holes in CanvasRenderer, please use moveTo lineTo, quadraticCurveTo if you rely on pixi-legacy bundle.
 	 * @return Returns itself.
 	 */
